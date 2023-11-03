@@ -41,3 +41,31 @@ console.log("Value after exponentiation is : ",x)
 
 
 //Comparison operators
+
+let c=10;
+let d="20";
+console.log("c==d is",c==d);
+console.log("c!=d is",c!=d);
+console.log("c===d is",c===d);  //-----> checks the data types if same
+console.log("c!==d is",c!==d); //-----> checks the data types if not same
+console.log("c<d is",c<d);
+console.log("c<=d is",c<=d);
+console.log("c>d is",c>d);
+console.log("c>=d is",c>=d);
+
+
+//Logical operators
+let e=true;
+let f=false;
+console.log("e&&f is",e && f);   //-----> true and and true then true both the condition must be true
+console.log("e||f is",e || f);   //----> if one condition is true then also true if both are false then false
+console.log("!(e && f) is", !(e && f));  //-----> true ko false false ko true
+
+
+//Bitwise operators
+let g = 98;
+let h = 13;
+console.log("g & h is",g&h);      //-----> bitwise AND operation
+console.log("g | h is",g|h);       //-----> bitwise OR operation
+console.log("g ^ h is",g^h);        //-----> bitwise XOR operation
+console.log("~g is", ~g);         //-----> Bitwise NOT operator
